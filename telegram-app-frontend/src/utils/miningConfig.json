@@ -1,0 +1,47 @@
+{
+  "boosterConfig": [
+    {
+      "nodeTierId": 0,
+      "name": "Free",
+      "price": 0,
+      "Hashrate": 1,
+      "speed": {
+        "bachi": 23148,
+        "ton": 34
+      }
+    },
+    {
+      "nodeTierId": 1,
+      "name": "Core i5",
+      "price": 5800000000,
+      "Hashrate": 1,
+      "speed": {
+        "bachi": 231481,
+        "ton": 347
+      }
+    },
+    {
+      "nodeTierId": 2,
+      "name": "Core i7",
+      "price": 58000000000,
+      "Hashrate": 10,
+      "speed": {
+        "bachi": 2314814,
+        "ton": 3472
+      }
+    },
+    {
+      "nodeTierId": 3,
+      "name": "Core i9",
+      "price": 580000000000,
+      "Hashrate": 100,
+      "speed": {
+        "bachi": 23148148,
+        "ton": 34722
+      }
+    }
+  ],
+  "boosterReceiver": "UQCA_hUMoLIDSxSHvGMHQ1wysSf0qj5h5n0f9UDQI-h2Mczz",
+  "boosterReceiver2": "UQBIbBv1TiEgBcYgYHimgekFpfuGmqR4QMVjOu23E75iNFHK",
+  "bachiToken": "EQCev6ESi4cTyq41wnVyAlAZIR-5V30UyRZ_hEcEPunz0UoS"
+}

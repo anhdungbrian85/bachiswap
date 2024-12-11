@@ -1,0 +1,69 @@
+{
+  "ageConfig": [
+    { "maxId": 10272913, "age": 11, "score": 1100 },
+    { "maxId": 96460640, "age": 10, "score": 1000 },
+    { "maxId": 196826237, "age": 9, "score": 900 },
+    { "maxId": 318757441, "age": 8, "score": 800 },
+    { "maxId": 475744685, "age": 7, "score": 700 },
+    { "maxId": 701679414, "age": 6, "score": 600 },
+    { "maxId": 1057637194, "age": 5, "score": 500 },
+    { "maxId": 1404887712, "age": 4, "score": 400 },
+    { "maxId": 1623549683, "age": 3, "score": 300 },
+    { "maxId": 1777053014, "age": 2, "score": 200 },
+    { "maxId": 1896710456, "age": 1, "score": 100 },
+    { "maxId": 999999999999999, "age": 0, "score": 0 }
+  ],
+  "premium": 300,
+  "premiumMultipleRate": 0.05,
+  "refCount": [0, 1, 10, 50, 100, 1000, 10000, 100000, 500000, 1000000],
+  "refScoreRate": 0.05,
+  "energyRecovery": 7200,
+  "energyRecoveryAutoplay": 14400,
+  "maxEnergy": 500,
+  "autoPlayRewardPerHour": 500,
+  "level": [
+    16800, 23520.0, 32928.0, 46099.2, 64538.88, 90354.43, 126496.2, 177094.69,
+    247932.56, 347105.59, 485947.82, 680326.95, 952457.73, 1333440.82,
+    1866817.15, 2613544.01, 3658961.61, 5122546.25, 7171564.75, 10040190.65
+  ],
+  "autoPlayRate": 0.6,
+  "maxAutoplay": 21600000,
+  "checkinPoint": 100,
+  "master_address": {
+    "deposit_task": "UQDKlLoHdQ5IQekCJB3zSG2NajO-vtxiDq5xXE6szflIg3M_",
+    "boost_task_01": "UQDdQlP8_uQb7Fjueyfvc7j1jG2ck8AWO36g-3n42nW3mvkx",
+    "boost_task_02": "UQAZdqArW-8ZBpzuQG-g2c7ak6Bn7WTrXrbf1n81EUfWgVFR",
+    "boost_task_03": "UQACZIBjFFerU71wM5OB8UNaFJaJGjPnuRVCzyPA0xvPloqL",
+    "boost_task_04": "UQC_8LZG-9sVdLgbdf7_QR_8cq73C9BlAD0Nyz6L-PrFdZ0X"
+  },
+  "transactionReward": 20000,
+  "depositTaskAmount": 0.1,
+  "referRewardRate": 0.05,
+  "boostPackages": {
+    "energyTopUp": {
+      "address": "UQDdQlP8_uQb7Fjueyfvc7j1jG2ck8AWO36g-3n42nW3mvkx",
+      "comment": "Energy Top Up",
+      "price": 1000000,
+      "payload": "te6cckEBAQEAEwAAIgAAAABFbmVyZ3kgVG9wIFVwPNwU9A=="
+    },
+    "boostMulRate": {
+      "address": "UQAZdqArW-8ZBpzuQG-g2c7ak6Bn7WTrXrbf1n81EUfWgVFR",
+      "type": [
+        {
+          "comment": "Boost 100% in 1day",
+          "price": 1000000,
+          "percent": 100,
+          "duration": 1,
+          "payload": "te6cckEBAQEAGAAALAAAAABCb29zdCAxMDAlIGluIDFkYXnxO8WI"
+        },
+        {
+          "comment": "Boost 500% in 1day",
+          "price": 2000000,
+          "percent": 500,
+          "duration": 1
+        }
+      ]
+    },
+    "boostAutoPlay": {}
+  }
+}

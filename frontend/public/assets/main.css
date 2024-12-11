@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Bruno Ace SC Regular";
+  src: url("./fonts/BrunoAceSC-Regular.ttf");
+}
+@font-face{
+  font-family: "Bruno Ace Regular";
+  src: url("./fonts/BrunoAce-Regular.ttf");
+}
+@font-face{
+  font-family: "Ubuntu Condensed Regular";
+  src: url("./fonts/UbuntuCondensed-Regular.ttf");
+}
+@font-face{
+  font-family: "Ubuntu Mono Bold";
+  src: url("./fonts/UbuntuMono-Bold.ttf");
+}
+@font-face{
+  font-family: "Ubuntu Mono BoldItalic";
+  src: url("./fonts/UbuntuMono-BoldItalic.ttf");
+}
+@font-face{
+  font-family: "Ubuntu Mono Italic";
+  src: url("./fonts/UbuntuMono-Italic.ttf");
+}
+@font-face{
+  font-family: "Ubuntu Mono Regular";
+  src: url("./fonts/UbuntuMono-Regular.ttf");
+}

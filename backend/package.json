@@ -1,0 +1,32 @@
+{
+  "name": "bachiswap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "discord": "nodemon discord.js",
+    "twitter": "nodemon twitter.js",
+    "telegram": "nodemon telegram.js",
+    "scan-node-manager": "nodemon src/crons/node_manager_events_collector.js",
+    "scan-tx-queue": "nodemon src/crons/transaction_queue_cronjob.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "passport-telegram": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}

@@ -1,0 +1,106 @@
+:root {
+  --font-heading: "Bruno Ace SC Regular", sans-serif;
+  --font-text-main: "Bruno Ace Regular", sans-serif;
+  --font-heading-main: "Bruno Ace Regular", sans-serif;
+  --font-text-extra: "Bruno Ace Regular", sans-serif;
+  --color-border-bottom: #fcddec;
+  --color-background: #0e001f;
+  --color-main: #e42493;
+  --color-background-popup: #231a2e;
+  --color-background-footer: #040926;
+}
+
+html {
+  font-family: "Bruno Ace SC Regular", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideIn-animation {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 100vh;
+    opacity: 1;
+  }
+}
+
+.slideDown-animation {
+  overflow: hidden;
+  animation: slideDown 0.5s ease-out forwards;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination a {
+  border-color: #eb7fb3 !important;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 8px;
+  border: 1px solid white;
+  text-decoration: none;
+  width: 30px !important;
+  height: 30px !important;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.pagination li.disabled a {
+  display: none;
+}
+
+.pagination li.active a {
+  /* background-color: #1BECA6; */
+  color: var(--color-background-popup);
+  background-color: #eb7fb3;
+}
+
+.pagination .ellipsis {
+  cursor: not-allowed;
+}
